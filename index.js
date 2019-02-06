@@ -18,21 +18,21 @@ function destructivelyRemoveFirstDriver(){
 }
 
 function appendDriver(name){
- const a = [...drivers, name];
-  return a;
+ const array = [...drivers, name];
+  return array;
 }
 
 function prependDriver(name){
- const newarray = [name , ...drivers];
-  return newarray;
+ const array = [name , ...drivers];
+  return array;
 }
 
 function removeLastDriver(){
-  const newarray = drivers.slice(0,drivers.length-1);
-  return newarray;
+  const array = drivers.slice(0,drivers.length-1);
+  return array;
 }
 
 function removeFirstDriver(){
-  const newarray = drivers.slice(1,drivers.length);
-  return newarray;
+  const array = drivers.slice(1,drivers.length);
+  return array;
 }
